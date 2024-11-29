@@ -1,0 +1,85 @@
+{
+  "projects": [
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "version": "0.29.0",
+      "dependencies": {},
+      "lang": "ts",
+      "fileLocks": [
+        {
+          "assetId": "7nJ7UcFmq9UzB6eXfC5z4a",
+          "type": "projectCss",
+          "checksum": "05587b57f22f0ec8bb54543deb39762e"
+        }
+      ],
+      "codegenVersion": "0.0.1"
+    },
+    {
+      "projectId": "6rE6XB7Jxf94aDppVmg3Nf",
+      "version": "latest",
+      "dependencies": {
+        "7nJ7UcFmq9UzB6eXfC5z4a": "0.29.0"
+      },
+      "lang": "ts",
+      "fileLocks": [
+        {
+          "type": "globalVariant",
+          "assetId": "tMpUh2t2LAvG",
+          "checksum": "5ac3bca1574ea8c7ea90e05702b12761"
+        },
+        {
+          "assetId": "6rE6XB7Jxf94aDppVmg3Nf",
+          "type": "projectCss",
+          "checksum": "abb8c3da2a9a2cfad5ff5dcbca8956c9"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "UDMAc1-Ts9pM",
+          "checksum": "10ac3beba22a89b28a9f186cb4bedf13"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "UDMAc1-Ts9pM",
+          "checksum": "10ac3beba22a89b28a9f186cb4bedf13"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "A4EgRLn3kFHW",
+          "checksum": "517105f819076cd86669cc453ebb9af6"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "A4EgRLn3kFHW",
+          "checksum": "517105f819076cd86669cc453ebb9af6"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "90MprgbLVpCQ",
+          "checksum": "0656f213f8c935341e5e6cdf9d2b5671"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "90MprgbLVpCQ",
+          "checksum": "0656f213f8c935341e5e6cdf9d2b5671"
+        },
+        {
+          "type": "icon",
+          "assetId": "yolw0b2gvZAo",
+          "checksum": "ff2bbc48d7e9e8d32fe279e48fdbc28e"
+        },
+        {
+          "type": "icon",
+          "assetId": "SmkW4n8nhK_B",
+          "checksum": "ff872ec9a183a520b8de177b795abd41"
+        },
+        {
+          "type": "image",
+          "assetId": "_ixUt0wvB32_",
+          "checksum": "e049782a86c537cd247ce1f14bf1eb4b"
+        }
+      ],
+      "codegenVersion": "0.0.1"
+    }
+  ],
+  "cliVersion": "0.1.334"
+}

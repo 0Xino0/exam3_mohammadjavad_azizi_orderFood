@@ -1,0 +1,147 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "projectApiToken": "uZp069FLSLNVA2dpWnqC3BUaj3flvtNBNXt6e1b67rm4Uh6lGHgYJ65FCBXlOFTB5KDW7RmmOxIAzgHYCg",
+      "projectName": "plasmic-nav",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_nav/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jGx9tiKJoex",
+          "name": "NavigationBar",
+          "displayName": "hostless-plasmic-navigation-bar",
+          "componentImportPath": "@plasmicpkgs/plasmic-nav"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "6rE6XB7Jxf94aDppVmg3Nf",
+      "projectApiToken": "gqGkbqMH7jJiDkr1VufMCjiecddTPJjjEORCjsFKbnQ4uGtfjI7fgUh33x78UxNDJonEX7lBkWeJZty8zNjw",
+      "projectName": "order food",
+      "version": "latest",
+      "cssFilePath": "plasmic/order_food/plasmic.module.css",
+      "components": [
+        {
+          "id": "UDMAc1-Ts9pM",
+          "name": "Orders",
+          "type": "managed",
+          "projectId": "6rE6XB7Jxf94aDppVmg3Nf",
+          "renderModuleFilePath": "plasmic/order_food/PlasmicOrders.tsx",
+          "importSpec": {
+            "modulePath": "Orders.tsx"
+          },
+          "cssFilePath": "plasmic/order_food/PlasmicOrders.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "A4EgRLn3kFHW",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "6rE6XB7Jxf94aDppVmg3Nf",
+          "renderModuleFilePath": "plasmic/order_food/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/order_food/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "90MprgbLVpCQ",
+          "name": "Order",
+          "type": "managed",
+          "projectId": "6rE6XB7Jxf94aDppVmg3Nf",
+          "renderModuleFilePath": "plasmic/order_food/PlasmicOrder.tsx",
+          "importSpec": {
+            "modulePath": "Order.tsx"
+          },
+          "cssFilePath": "plasmic/order_food/PlasmicOrder.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "yolw0b2gvZAo",
+          "name": "CheckSvgIcon",
+          "moduleFilePath": "plasmic/order_food/icons/PlasmicIcon__CheckSvg.tsx"
+        },
+        {
+          "id": "SmkW4n8nhK_B",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/order_food/icons/PlasmicIcon__Icon.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "_ixUt0wvB32_",
+          "name": "images.jpg",
+          "filePath": "plasmic/order_food/images/imagesJpg.jpg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "WuMpU9WEd6TC",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "jhiS015nuJo9",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "tMpUh2t2LAvG",
+        "name": "Screen",
+        "projectId": "6rE6XB7Jxf94aDppVmg3Nf",
+        "contextFilePath": "plasmic/order_food/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.334",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.334/dist/plasmic.schema.json"
+}
